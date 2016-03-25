@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C16C20311C82D4D600B934DA /* PlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C20301C82D4D600B934DA /* PlayScene.m */; };
+		C16C20341C841A9300B934DA /* EndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C20331C841A9300B934DA /* EndScene.m */; };
 		C1CBF78C1C1FED1B004515FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CBF78B1C1FED1B004515FF /* main.m */; };
 		C1CBF78F1C1FED1B004515FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CBF78E1C1FED1B004515FF /* AppDelegate.m */; };
 		C1CBF7921C1FED1B004515FF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CBF7911C1FED1B004515FF /* GameScene.m */; };
@@ -15,9 +17,17 @@
 		C1CBF79A1C1FED1B004515FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CBF7981C1FED1B004515FF /* Main.storyboard */; };
 		C1CBF79C1C1FED1B004515FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CBF79B1C1FED1B004515FF /* Assets.xcassets */; };
 		C1CBF79F1C1FED1B004515FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CBF79D1C1FED1B004515FF /* LaunchScreen.storyboard */; };
+		C1FFA45A1C9839F900411499 /* heroDied.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1FFA4581C9839F800411499 /* heroDied.sks */; };
+		C1FFA45B1C9839F900411499 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = C1FFA4591C9839F900411499 /* spark.png */; };
+		C1FFA45F1C98404200411499 /* heroDied1.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1FFA45E1C98404200411499 /* heroDied1.sks */; };
+		C1FFA4611C9846DA00411499 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1FFA4601C9846DA00411499 /* jump.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C16C202F1C82D4D600B934DA /* PlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScene.h; sourceTree = "<group>"; };
+		C16C20301C82D4D600B934DA /* PlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScene.m; sourceTree = "<group>"; };
+		C16C20321C841A9300B934DA /* EndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndScene.h; sourceTree = "<group>"; };
+		C16C20331C841A9300B934DA /* EndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndScene.m; sourceTree = "<group>"; };
 		C1CBF7871C1FED1B004515FF /* GoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CBF78B1C1FED1B004515FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1CBF78D1C1FED1B004515FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +41,10 @@
 		C1CBF79B1C1FED1B004515FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1CBF79E1C1FED1B004515FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1CBF7A01C1FED1B004515FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FFA4581C9839F800411499 /* heroDied.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = heroDied.sks; sourceTree = "<group>"; };
+		C1FFA4591C9839F900411499 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		C1FFA45E1C98404200411499 /* heroDied1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = heroDied1.sks; sourceTree = "<group>"; };
+		C1FFA4601C9846DA00411499 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +77,18 @@
 		C1CBF7891C1FED1B004515FF /* GoGo */ = {
 			isa = PBXGroup;
 			children = (
+				C1FFA4601C9846DA00411499 /* jump.wav */,
 				C1CBF78D1C1FED1B004515FF /* AppDelegate.h */,
 				C1CBF78E1C1FED1B004515FF /* AppDelegate.m */,
 				C1CBF7901C1FED1B004515FF /* GameScene.h */,
 				C1CBF7911C1FED1B004515FF /* GameScene.m */,
+				C1FFA4581C9839F800411499 /* heroDied.sks */,
+				C1FFA4591C9839F900411499 /* spark.png */,
+				C16C202F1C82D4D600B934DA /* PlayScene.h */,
+				C16C20301C82D4D600B934DA /* PlayScene.m */,
+				C1FFA45E1C98404200411499 /* heroDied1.sks */,
+				C16C20321C841A9300B934DA /* EndScene.h */,
+				C16C20331C841A9300B934DA /* EndScene.m */,
 				C1CBF7931C1FED1B004515FF /* GameScene.sks */,
 				C1CBF7951C1FED1B004515FF /* GameViewController.h */,
 				C1CBF7961C1FED1B004515FF /* GameViewController.m */,
@@ -144,8 +166,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1FFA4611C9846DA00411499 /* jump.wav in Resources */,
 				C1CBF7941C1FED1B004515FF /* GameScene.sks in Resources */,
+				C1FFA45B1C9839F900411499 /* spark.png in Resources */,
+				C1FFA45F1C98404200411499 /* heroDied1.sks in Resources */,
 				C1CBF79F1C1FED1B004515FF /* LaunchScreen.storyboard in Resources */,
+				C1FFA45A1C9839F900411499 /* heroDied.sks in Resources */,
 				C1CBF79C1C1FED1B004515FF /* Assets.xcassets in Resources */,
 				C1CBF79A1C1FED1B004515FF /* Main.storyboard in Resources */,
 			);
@@ -161,6 +187,8 @@
 				C1CBF7971C1FED1B004515FF /* GameViewController.m in Sources */,
 				C1CBF78F1C1FED1B004515FF /* AppDelegate.m in Sources */,
 				C1CBF7921C1FED1B004515FF /* GameScene.m in Sources */,
+				C16C20311C82D4D600B934DA /* PlayScene.m in Sources */,
+				C16C20341C841A9300B934DA /* EndScene.m in Sources */,
 				C1CBF78C1C1FED1B004515FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +336,7 @@
 				C1CBF7A51C1FED1B004515FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

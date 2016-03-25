@@ -44,6 +44,7 @@
     // Create and configure the scene.
     GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
     scene.scaleMode = SKSceneScaleModeAspectFill;
+    NSLog(@"inited");
     
     // Present the scene.
     [skView presentScene:scene];

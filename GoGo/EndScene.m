@@ -1,15 +1,18 @@
 //
-//  GameScene.m
+//  EndScene.m
 //  GoGo
 //
-//  Created by 王振西 on 15/12/15.
-//  Copyright (c) 2015年 王振西. All rights reserved.
+//  Created by 王振西 on 16/2/29.
+//  Copyright © 2016年 王振西. All rights reserved.
 //
-#import "GameScene.h"
-@interface GameScene()
+
+#import "EndScene.h"
+#import "PlayScene.h"
+@interface EndScene()
 @property BOOL contentCreated;
 @end
-@implementation GameScene
+
+@implementation EndScene
 -(void)didMoveToView:(SKView *)view {
     if(!self.contentCreated)
     {
@@ -27,7 +30,7 @@
 - (SKLabelNode *)newHelloNode
 {
     SKLabelNode *helloNode = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
-    helloNode.text =@"GoGo";
+    helloNode.text =@"失败了";
     helloNode.fontSize = 100;
     helloNode.name=@"helloNode";
     helloNode.position = CGPointMake(CGRectGetMidX(self.frame),CGRectGetMidY(self.frame));
