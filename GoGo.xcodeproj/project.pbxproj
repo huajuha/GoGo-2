@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14D94851CBCE941005A96B3 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = C14D94841CBCE941005A96B3 /* Hero.m */; };
 		C16C20311C82D4D600B934DA /* PlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C20301C82D4D600B934DA /* PlayScene.m */; };
 		C16C20341C841A9300B934DA /* EndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C20331C841A9300B934DA /* EndScene.m */; };
 		C1CBF78C1C1FED1B004515FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CBF78B1C1FED1B004515FF /* main.m */; };
@@ -21,9 +22,16 @@
 		C1FFA45B1C9839F900411499 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = C1FFA4591C9839F900411499 /* spark.png */; };
 		C1FFA45F1C98404200411499 /* heroDied1.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1FFA45E1C98404200411499 /* heroDied1.sks */; };
 		C1FFA4611C9846DA00411499 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1FFA4601C9846DA00411499 /* jump.wav */; };
+		F14E9E5E1CBB5395003C648D /* SKNode+receiveAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9E5D1CBB5395003C648D /* SKNode+receiveAttack.m */; };
+		F14E9E611CBBA0D9003C648D /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9E601CBBA0D9003C648D /* Enemy.m */; };
+		F14E9E671CBBCEEA003C648D /* CoinNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E9E661CBBCEEA003C648D /* CoinNode.m */; };
+		F1F426CC1CA81F6100C27B2D /* PlayerSceneHalloween.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F426CB1CA81F6100C27B2D /* PlayerSceneHalloween.m */; };
+		F1F426CE1CAA87AF00C27B2D /* coins.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1F426CD1CAA87AF00C27B2D /* coins.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14D94831CBCE941005A96B3 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		C14D94841CBCE941005A96B3 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
 		C16C202F1C82D4D600B934DA /* PlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScene.h; sourceTree = "<group>"; };
 		C16C20301C82D4D600B934DA /* PlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScene.m; sourceTree = "<group>"; };
 		C16C20321C841A9300B934DA /* EndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndScene.h; sourceTree = "<group>"; };
@@ -45,6 +53,16 @@
 		C1FFA4591C9839F900411499 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		C1FFA45E1C98404200411499 /* heroDied1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = heroDied1.sks; sourceTree = "<group>"; };
 		C1FFA4601C9846DA00411499 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		F13454CC1CBA86E700C7703F /* physicsCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = physicsCategories.h; sourceTree = "<group>"; };
+		F14E9E5C1CBB5395003C648D /* SKNode+receiveAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+receiveAttack.h"; sourceTree = "<group>"; };
+		F14E9E5D1CBB5395003C648D /* SKNode+receiveAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+receiveAttack.m"; sourceTree = "<group>"; };
+		F14E9E5F1CBBA0D9003C648D /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		F14E9E601CBBA0D9003C648D /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
+		F14E9E651CBBCEEA003C648D /* CoinNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinNode.h; sourceTree = "<group>"; };
+		F14E9E661CBBCEEA003C648D /* CoinNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinNode.m; sourceTree = "<group>"; };
+		F1F426CA1CA81F6100C27B2D /* PlayerSceneHalloween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerSceneHalloween.h; sourceTree = "<group>"; };
+		F1F426CB1CA81F6100C27B2D /* PlayerSceneHalloween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerSceneHalloween.m; sourceTree = "<group>"; };
+		F1F426CD1CAA87AF00C27B2D /* coins.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coins.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,22 +95,25 @@
 		C1CBF7891C1FED1B004515FF /* GoGo */ = {
 			isa = PBXGroup;
 			children = (
-				C1FFA4601C9846DA00411499 /* jump.wav */,
+				F13454CC1CBA86E700C7703F /* physicsCategories.h */,
 				C1CBF78D1C1FED1B004515FF /* AppDelegate.h */,
 				C1CBF78E1C1FED1B004515FF /* AppDelegate.m */,
-				C1CBF7901C1FED1B004515FF /* GameScene.h */,
-				C1CBF7911C1FED1B004515FF /* GameScene.m */,
-				C1FFA4581C9839F800411499 /* heroDied.sks */,
-				C1FFA4591C9839F900411499 /* spark.png */,
-				C16C202F1C82D4D600B934DA /* PlayScene.h */,
-				C16C20301C82D4D600B934DA /* PlayScene.m */,
-				C1FFA45E1C98404200411499 /* heroDied1.sks */,
-				C16C20321C841A9300B934DA /* EndScene.h */,
-				C16C20331C841A9300B934DA /* EndScene.m */,
-				C1CBF7931C1FED1B004515FF /* GameScene.sks */,
+				F14E9E5C1CBB5395003C648D /* SKNode+receiveAttack.h */,
+				F14E9E5D1CBB5395003C648D /* SKNode+receiveAttack.m */,
+				F14E9E5F1CBBA0D9003C648D /* Enemy.h */,
+				F14E9E601CBBA0D9003C648D /* Enemy.m */,
+				F14E9E651CBBCEEA003C648D /* CoinNode.h */,
+				F14E9E661CBBCEEA003C648D /* CoinNode.m */,
+				C14D94831CBCE941005A96B3 /* Hero.h */,
+				C14D94841CBCE941005A96B3 /* Hero.m */,
+				F13454CD1CBA87C600C7703F /* 关卡 */,
+				F13454CE1CBA87EB00C7703F /* 开始／结束场景 */,
 				C1CBF7951C1FED1B004515FF /* GameViewController.h */,
 				C1CBF7961C1FED1B004515FF /* GameViewController.m */,
+				F13454CF1CBA883600C7703F /* Sound */,
+				F13454D01CBA887D00C7703F /* 粒子特效 */,
 				C1CBF7981C1FED1B004515FF /* Main.storyboard */,
+				C1CBF7931C1FED1B004515FF /* GameScene.sks */,
 				C1CBF79B1C1FED1B004515FF /* Assets.xcassets */,
 				C1CBF79D1C1FED1B004515FF /* LaunchScreen.storyboard */,
 				C1CBF7A01C1FED1B004515FF /* Info.plist */,
@@ -107,6 +128,47 @@
 				C1CBF78B1C1FED1B004515FF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F13454CD1CBA87C600C7703F /* 关卡 */ = {
+			isa = PBXGroup;
+			children = (
+				C16C202F1C82D4D600B934DA /* PlayScene.h */,
+				C16C20301C82D4D600B934DA /* PlayScene.m */,
+				F1F426CA1CA81F6100C27B2D /* PlayerSceneHalloween.h */,
+				F1F426CB1CA81F6100C27B2D /* PlayerSceneHalloween.m */,
+			);
+			name = "关卡";
+			sourceTree = "<group>";
+		};
+		F13454CE1CBA87EB00C7703F /* 开始／结束场景 */ = {
+			isa = PBXGroup;
+			children = (
+				C1CBF7901C1FED1B004515FF /* GameScene.h */,
+				C1CBF7911C1FED1B004515FF /* GameScene.m */,
+				C16C20321C841A9300B934DA /* EndScene.h */,
+				C16C20331C841A9300B934DA /* EndScene.m */,
+			);
+			name = "开始／结束场景";
+			sourceTree = "<group>";
+		};
+		F13454CF1CBA883600C7703F /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F1F426CD1CAA87AF00C27B2D /* coins.wav */,
+				C1FFA4601C9846DA00411499 /* jump.wav */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		F13454D01CBA887D00C7703F /* 粒子特效 */ = {
+			isa = PBXGroup;
+			children = (
+				C1FFA45E1C98404200411499 /* heroDied1.sks */,
+				C1FFA4581C9839F800411499 /* heroDied.sks */,
+				C1FFA4591C9839F900411499 /* spark.png */,
+			);
+			name = "粒子特效";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +202,7 @@
 				TargetAttributes = {
 					C1CBF7861C1FED1B004515FF = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8MBC2625L7;
 					};
 				};
 			};
@@ -166,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F426CE1CAA87AF00C27B2D /* coins.wav in Resources */,
 				C1FFA4611C9846DA00411499 /* jump.wav in Resources */,
 				C1CBF7941C1FED1B004515FF /* GameScene.sks in Resources */,
 				C1FFA45B1C9839F900411499 /* spark.png in Resources */,
@@ -184,10 +248,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F426CC1CA81F6100C27B2D /* PlayerSceneHalloween.m in Sources */,
 				C1CBF7971C1FED1B004515FF /* GameViewController.m in Sources */,
 				C1CBF78F1C1FED1B004515FF /* AppDelegate.m in Sources */,
+				F14E9E5E1CBB5395003C648D /* SKNode+receiveAttack.m in Sources */,
 				C1CBF7921C1FED1B004515FF /* GameScene.m in Sources */,
+				F14E9E611CBBA0D9003C648D /* Enemy.m in Sources */,
+				C14D94851CBCE941005A96B3 /* Hero.m in Sources */,
 				C16C20311C82D4D600B934DA /* PlayScene.m in Sources */,
+				F14E9E671CBBCEEA003C648D /* CoinNode.m in Sources */,
 				C16C20341C841A9300B934DA /* EndScene.m in Sources */,
 				C1CBF78C1C1FED1B004515FF /* main.m in Sources */,
 			);
@@ -299,10 +368,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GoGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = forlearn.GoGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -310,10 +382,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GoGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = forlearn.GoGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

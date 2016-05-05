@@ -56,6 +56,7 @@
             SKScene * playScene = [[PlayScene alloc] initWithSize:self.size];
             SKTransition *doors= [SKTransition doorsOpenVerticalWithDuration:0.5];
             [self.view presentScene:playScene transition:doors];
+            
         }];
     }
 }

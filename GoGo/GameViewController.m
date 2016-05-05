@@ -43,6 +43,8 @@
     
     // Create and configure the scene.
     GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+   // GameScene *scene = [GameScene sceneWithSize:self.view.frame.size];
+  //  scene *scene = [scene initWithSize:self.view.frame.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     NSLog(@"inited");
     
@@ -52,7 +54,7 @@
 
 - (BOOL)shouldAutorotate
 {
-    return YES;
+    return NO;
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
