@@ -15,7 +15,6 @@
 #define littestagehigh 70
 
 @implementation PlayScene
-//卡卡卡卡
 - (void)didMoveToView:(SKView *)view {
   _backgroundSpeed = 350;
     _isJumping=YES;
