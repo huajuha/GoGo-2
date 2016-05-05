@@ -14,7 +14,7 @@
 #import "Hero.h"
 
 @interface PlayScene:SKScene<SKPhysicsContactDelegate>
-
+//laaaaaaaaaaa
 @property NSInteger stagecounts;
 @property CGPoint stagepoint ;
 @property(strong,nonatomic)Hero *hero;

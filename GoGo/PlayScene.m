@@ -334,7 +334,7 @@
         CGPoint location = [touch locationInNode:self];
         if (location.x>900&&location.y>500&&self.defendNumber>=1&&!self.whenAddDefend) {
             self.defendNumber--;
-            self.defendLabel.text=[NSString stringWithFormat:@" x %d",self.defendNumber];
+            self.defendLabel.text=[NSString stringWithFormat:@" x %lu",(unsigned long)self.defendNumber];
             self.heroShouldDefend=YES;
             return;
         }
