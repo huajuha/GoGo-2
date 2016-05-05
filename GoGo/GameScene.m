@@ -6,6 +6,7 @@
 //  Copyright (c) 2015年 王振西. All rights reserved.
 //
 #import "GameScene.h"
+///ksskaaas
 @interface GameScene ()
 @property BOOL contentCreated;
 @property(strong, nonatomic) SKSpriteNode *button;
