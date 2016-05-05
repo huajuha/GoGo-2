@@ -15,6 +15,7 @@
 
 @interface PlayScene:SKScene<SKPhysicsContactDelegate>
 //laaaaaaaaaaa
+//afjdafjdjfjalf
 @property NSInteger stagecounts;
 @property CGPoint stagepoint ;
 @property(strong,nonatomic)Hero *hero;
