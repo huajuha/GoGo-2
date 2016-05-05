@@ -7,6 +7,7 @@
 //
 #import "GameScene.h"
 ///ksskaaas
+//xxxxxxxxxxxxxxx
 @interface GameScene ()
 @property BOOL contentCreated;
 @property(strong, nonatomic) SKSpriteNode *button;
